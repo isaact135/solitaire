@@ -47,6 +47,12 @@ These declarations are for the China mainland storefront.
 - **Format:** 886 × 1920, 30 fps, H.264 with silent stereo AAC audio, as Apple specifies for iPhone previews.
 - **Where it goes:** the same file fits both iPhone with Dynamic Island slots, medium and large.
 - **Poster frame:** set it to about 8 seconds, where the dragged run makes a long column. The default is 5 seconds.
+
+**iPhone Duo app preview:** `previews/duo-preview.mp4`, optional.
+- **What it shows:** 24.3 seconds on the inner display. The board starts flat and rearranges around the fold as the phone half-opens. The same moves follow, some across the fold, then the finish and the win screen.
+- **Format:** 1920 × 886 landscape, the only shape Apple accepts for Duo previews. The sides continue the felt, not black bars.
+- **Where it goes:** the iPhone Duo slots.
+- **Poster frame:** about 11 seconds, where the long run sits on the split board.
 - **iPhone Duo:** the Duo slots are optional until April 2027. From then they're required for apps built with the iOS 27.1 SDK or later, which includes this one. Uploading them now adds an iPhone Duo badge to the product page.
 
 **Promotional text** (165 of 170 characters; you can change it at any time without a new version):
