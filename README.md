@@ -53,9 +53,12 @@ Make release settings in Xcode. Select the project in the navigator, then the So
 
 The app already includes a privacy manifest (`Solitaire/Resources/PrivacyInfo.xcprivacy`) declaring its `UserDefaults` use, and it declares that it uses no non-exempt encryption.
 
+The privacy policy for App Store Connect is published with GitHub Pages from `docs/privacy/`, at https://isaact135.github.io/solitaire/privacy/.
+
 ## Structure
 
 - `Solitaire/Models`: cards, game state, rules, scoring, undo, persistence, and timing.
 - `Solitaire/Views`: adaptive app shell, board layout, gestures, cards, and controls.
 - `Solitaire/Resources`: the Icon Composer app icon (`AppIcon.icon`; open it in Icon Composer to edit), colors, and the privacy manifest.
 - `SolitaireTests`: rule and state-restoration tests.
+- `docs`: the GitHub Pages site, which holds the privacy policy.
