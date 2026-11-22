@@ -1,0 +1,180 @@
+{
+  "groups": [
+    {
+      "name": "Big heart + Sparkles",
+      "layers": [
+        {
+          "name": "Sparkles",
+          "image-name": "sparkles.svg",
+          "glass": true
+        },
+        {
+          "name": "Big heart",
+          "image-name": "big-heart.svg",
+          "glass": true
+        }
+      ],
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.5
+      },
+      "translucency": {
+        "enabled": false,
+        "value": 0.4
+      }
+    },
+    {
+      "name": "Heart",
+      "layers": [
+        {
+          "name": "Heart index",
+          "image-name": "heart-index.svg",
+          "glass": true
+        },
+        {
+          "name": "Heart card",
+          "image-name": "heart-card.svg",
+          "glass": false,
+          "fill-specializations": [
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "extended-srgb:0.98431,0.96471,0.91373,1.00000"
+              }
+            }
+          ]
+        }
+      ],
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.5
+      },
+      "translucency": {
+        "enabled": false,
+        "value": 0.4
+      }
+    },
+    {
+      "name": "Spade",
+      "layers": [
+        {
+          "name": "Spade index",
+          "image-name": "spade-index.svg",
+          "glass": true
+        },
+        {
+          "name": "Spade card",
+          "image-name": "spade-card.svg",
+          "glass": false,
+          "fill-specializations": [
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "extended-srgb:0.98431,0.96471,0.91373,1.00000"
+              }
+            }
+          ]
+        }
+      ],
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.5
+      },
+      "translucency": {
+        "enabled": false,
+        "value": 0.4
+      }
+    },
+    {
+      "name": "Club + Diamond",
+      "layers": [
+        {
+          "name": "Diamond index",
+          "image-name": "diamond-index.svg",
+          "glass": true
+        },
+        {
+          "name": "Diamond card",
+          "image-name": "diamond-card.svg",
+          "glass": false,
+          "fill-specializations": [
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "extended-srgb:0.98431,0.96471,0.91373,1.00000"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Club index",
+          "image-name": "club-index.svg",
+          "glass": true
+        },
+        {
+          "name": "Club card",
+          "image-name": "club-card.svg",
+          "glass": false,
+          "fill-specializations": [
+            {
+              "appearance": "dark",
+              "value": {
+                "solid": "extended-srgb:0.98431,0.96471,0.91373,1.00000"
+              }
+            }
+          ]
+        }
+      ],
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.5
+      },
+      "translucency": {
+        "enabled": false,
+        "value": 0.4
+      }
+    }
+  ],
+  "supported-platforms": {
+    "squares": "shared"
+  },
+  "fill-specializations": [
+    {
+      "value": {
+        "linear-gradient": [
+          "extended-srgb:0.21961,0.65882,0.42353,1.00000",
+          "extended-srgb:0.03922,0.19608,0.12549,1.00000"
+        ],
+        "orientation": {
+          "start": {
+            "x": 0.25,
+            "y": 0
+          },
+          "stop": {
+            "x": 0.75,
+            "y": 1
+          }
+        }
+      }
+    },
+    {
+      "appearance": "dark",
+      "value": {
+        "linear-gradient": [
+          "extended-srgb:0.12157,0.41961,0.26667,1.00000",
+          "extended-srgb:0.02353,0.12157,0.07843,1.00000"
+        ],
+        "orientation": {
+          "start": {
+            "x": 0.25,
+            "y": 0
+          },
+          "stop": {
+            "x": 0.75,
+            "y": 1
+          }
+        }
+      }
+    }
+  ]
+}
