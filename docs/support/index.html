@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Support · Solitaire</title>
+  <meta name="description" content="Help with Solitaire, a Klondike card game for iPhone, and how to get in touch.">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <img src="../icon.png" alt="" width="64" height="64">
+      <div>
+        <h1>Solitaire Support</h1>
+        <p class="subtitle">A Klondike card game for iPhone</p>
+      </div>
+    </header>
+
+    <p class="lead">Need help, found a bug, or have an idea? <a href="https://github.com/isaact135/solitaire/issues/new">Open an issue on GitHub</a> and describe what happened. You’ll need a free GitHub account.</p>
+
+    <h2>Playing</h2>
+
+    <h3>How do I move cards?</h3>
+    <p>Drag a card, or a run of cards, to where you want it. You can also tap a card to move it automatically: to a foundation if it fits there, otherwise to a column that takes it.</p>
+
+    <h3>How do I draw from the deck?</h3>
+    <p>Tap the stock, the face-down pile at the top left of the board. When it runs out, tap its empty spot to turn the waste back over and go through the deck again.</p>
+
+    <h3>What’s the difference between Draw 1 and Draw 3?</h3>
+    <p>Draw 1 turns over one card at a time. Draw 3 turns over three, and only the top one can be played. Draw 3 follows traditional Klondike rules and is harder.</p>
+
+    <h3>How do I start a new game or change the draw mode?</h3>
+    <p>Tap the + button, choose Draw 1 or Draw 3, then tap Deal Cards.</p>
+
+    <h3>Can I take back a move?</h3>
+    <p>Yes. Tap the Undo button, the curved arrow, to step back one move at a time.</p>
+
+    <h3>What does “No useful moves left” mean?</h3>
+    <p>The game checks whether any sequence of moves could still turn over a card or play one from the deck. When none can, even if the only moves left go in circles, it offers to undo a move or deal a new game. You can also keep looking.</p>
+
+    <h3>Will I lose my game if I close the app?</h3>
+    <p>No. Your game saves automatically and picks up where you left off. The clock pauses while the app is in the background.</p>
+
+    <h3>Does it work on a foldable iPhone?</h3>
+    <p>Yes. On iPhone Duo, when the phone is half open, the board splits around the fold so no card sits on the crease.</p>
+
+    <h2>Scoring</h2>
+    <p>Solitaire uses the standard scoring from classic Windows Solitaire.</p>
+    <table>
+      <thead>
+        <tr><th>Action</th><th>Points</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>A card to a foundation</td><td>+10</td></tr>
+        <tr><td>A waste card to a column</td><td>+5</td></tr>
+        <tr><td>Turning over a face-down card</td><td>+5</td></tr>
+        <tr><td>A foundation card back to a column</td><td>−15</td></tr>
+        <tr><td>Going through the deck again, after the first pass in Draw 1</td><td>−100</td></tr>
+        <tr><td>Going through the deck again, after the third pass in Draw 3</td><td>−20</td></tr>
+        <tr><td>Every 10 seconds of play</td><td>−2</td></tr>
+      </tbody>
+    </table>
+    <p>The score never drops below zero. Undo takes back a move’s points, but not the time. Winning in more than 30 seconds adds a time bonus of 700,000 divided by the seconds taken.</p>
+
+    <h2>Requirements</h2>
+    <p>An iPhone with iOS 26 or later.</p>
+
+    <h2>Privacy</h2>
+    <p>Solitaire doesn’t collect any information about you. Read the <a href="../privacy/">privacy policy</a>.</p>
+  </main>
+  <footer>
+    <nav aria-label="Solitaire pages">
+      <a href="../support/" aria-current="page">Support</a>
+      <a href="../privacy/">Privacy Policy</a>
+    </nav>
+  </footer>
+</body>
+</html>
