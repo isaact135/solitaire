@@ -65,3 +65,4 @@ The support page and privacy policy for App Store Connect are published with Git
 - `Solitaire/Resources`: the Icon Composer app icon (`AppIcon.icon`; open it in Icon Composer to edit), colors, and the privacy manifest.
 - `SolitaireTests`: rule and state-restoration tests.
 - `docs`: the GitHub Pages site, with the support page and privacy policy.
+- `appstore`: App Store screenshots, artwork and app preview, with the listing text and what to enter where in `appstore/listing.md`.
